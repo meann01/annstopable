@@ -1,0 +1,34 @@
+#include <iostream>
+Using namespace std;
+
+Int main()
+{
+     Char op;
+     Float num1, num2;
+     Cout<< “ Enter operator either + or – or * or /: “;
+     Cin>>op;
+     Cout<< “ Enter two operands: “;
+     Cin>> num1>>num2;
+
+    Switch (op)
+{
+     Case’+’:
+           Cout<< num1+num2;
+           Break;
+     Case’-‘:
+           Cout<< num1-num2;
+          Break;
+   Case’*’:
+           Cout<< num1*num2;
+           Break;
+   Case’/’:
+           Cout<< num1/num2;
+          Break;
+Default:
+          //if the operator is other than +, -, *, /, error message is shown
+          Cout << “ Error ! Operator is not correct”;
+          Break;
+}
+Return 0;
+}
+  

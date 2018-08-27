@@ -1,0 +1,23 @@
+#include <iostream>
+Using namespace std;
+Int main()
+{
+ Char a=’J’;
+ Char b=’A’;
+ Char c=’V’;
+ Char d=’A’;
+Void join(){
+System.out.printIn(“the characters value is:”+a+b+c+d);
+}
+#include <iostream>
+Using namespace std;
+Int main ()
+{// variables
+Int a,b,c;
+//initialisation of addition
+a= 9
+b=10
+c=a+b;
+cout<<c<<endl;
+return 1;
+}

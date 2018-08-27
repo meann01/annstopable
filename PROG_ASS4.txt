@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main ()
+
+{
+	float s, v, t, hr;
+	
+	cout<<"A car traveled at the velocity of 70 km/hr. Within\n";
+	cout<<"40 minutes, the Car reach the destination. How many\n";
+	cout<<"kilometer does the car traveled?\n\n";
+	cout<<"Formula\n";
+	cout<<"s = v * t\n";
+	cout<<"Where:\n"<<"s = distance\n"<<" v = velocity\n"<<"t = time\n\n";
+	cout<<"Given\n"<<"v = 70 km/hr\n"<<"t = 40 min\n\n";
+	cout<<"Find the distance\n\n";
+	
+	cout<<"Enter the given velocity\n";
+	cin>>v;
+	cout<<"\n";
+	cout<<"Enter the given time\n";
+	cin>>t;
+	
+	hr =(t/60);
+	s=(v*hr);
+	
+	cout<<"\n\n";
+	cout<<"Solution\n";
+	cout<<"s = "<<v<<"km"<<" * "<<hr<<"hr\n";
+	cout<<"The distance is "<<s<<"km";
+    
+
+}
